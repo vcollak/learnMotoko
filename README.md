@@ -1,7 +1,6 @@
 # Learn Motoko 
 
-### Repository of notes to learn the Internet Computer development including 
-Motoko.
+### Repository of notes to learn the Internet Computer development including Motoko.
 
 # Notes
 <canister_name> replace this including<> with your canister name.
