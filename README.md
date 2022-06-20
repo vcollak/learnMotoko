@@ -12,7 +12,9 @@ Motoko.
 ## Replica management
 Starts the replica with a clean state and in the background
 
-```dfx start --clean --background```
+```
+dfx start --clean --background
+```
 
 
 ## Deploying Canisters
