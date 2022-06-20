@@ -4,18 +4,22 @@
 Motoko.
 
 # Notes
-<canister_name> - replace this including<> with your canister name.
+<canister_name> replace this including<> with your canister name.
 
 
 # DFX commands 
 
 ## Replica management
-`dfx start --clean --background` - starts the replica with a clean state and in the background
+Starts the replica with a clean state and in the background
+
+```dfx start --clean --background```
 
 
 ## Deploying Canisters
 
-`dfx deploy` - deploys / re-deploys the canisters in the dfx.json
+Deploys / re-deploys the canisters in the dfx.json
+
+`dfx deploy` 
 
 `dfx deploy <canister_name>` - deploys a speciic canister. 
 > Example: `dfx deploy hello_world` dpeloys the hello_world canister 
