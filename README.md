@@ -13,7 +13,7 @@ Motoko.
 `dfx start --clean --background` - starts the replica with a clean state and in the background
 
 
-## Deploy Commands
+## Deploying Canisters
 
 `dfx deploy` - deploys / re-deploys the canisters in the dfx.json
 
@@ -21,7 +21,7 @@ Motoko.
 
 `dfx deploy <canister_name> --mode=reinstall` - wipes the data and dedeploys the canister
 
-## Calling canisters
+## Calling Canisters
 
 `dfx canister call <canister_name> totalSupply` - calls the totalSupply method on the canister
 
