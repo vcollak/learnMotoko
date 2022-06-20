@@ -10,7 +10,7 @@ Motoko.
 # DFX commands 
 
 ## Replica management
-Starts the replica with a clean state and in the background
+Starts the replica with a clean state and in the background:
 
 ```
 dfx start --clean --background
@@ -19,22 +19,37 @@ dfx start --clean --background
 
 ## Deploying Canisters
 
-Deploys / re-deploys the canisters in the dfx.json
+Deploys / re-deploys the canisters in the dfx.json:
 
-`dfx deploy` 
+```
+dfx deploy
+``` 
 
-`dfx deploy <canister_name>` - deploys a speciic canister. 
+Dploys a speciic canister:
+```
+dfx deploy <canister_name>. Repalce <canister_name> with the specific canister
+``` 
 > Example: `dfx deploy hello_world` dpeloys the hello_world canister 
 
-`dfx deploy <canister_name> --mode=reinstall` - wipes the data and dedeploys the canister
+
+Wipes the data and dedeploys the canister:
+```
+dfx deploy <canister_name> --mode=reinstall
+```
 
 ## Calling Canisters
 
-`dfx canister call <canister_name> totalSupply` - calls the totalSupply method on the canister
+Calls the totalSupply method on the canister:
+```
+dfx canister call <canister_name> totalSupply
+```
 
-`dfx canister call <canister_name> balanceOf "principal \"$(dfx identity get-principal)\""` - calls the balanceOf method with an ID of the current principal. This essentially executes the dfx identity get-principal command and passed it to the canister method
+Calls the balanceOf method with an ID of the current principal. This essentially executes the dfx identity get-principal command and passed it to the canister method:
+```
+dfx canister call <canister_name> balanceOf "principal \"$(dfx identity get-principal)\""
+``` 
 
-`dfx canister call <canister_name> <params>` - calls canisters with some complex
+Calls canisters with more complex paramters:
 
 ```
 dfx canister call <canister_name> "(
