@@ -24,7 +24,7 @@ Deploys / re-deploys the canisters in the dfx.json:
 dfx deploy
 ``` 
 
-Dploys a speciic canister:
+Dploys a specific canister:
 ```
 dfx deploy <canister_name>. Repalce <canister_name> with the specific canister
 ``` 
