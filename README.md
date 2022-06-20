@@ -4,4 +4,5 @@ This repository contains notes that cover everyting and anything related to the 
 
 ## Content
 - [DFX commands](dfx.md)
+- [Resources](resources.md)
 
