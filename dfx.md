@@ -1,18 +1,42 @@
 # DFX commands 
 
 ## Replica management
-Starts the replica with a clean state and in the background:
+Starts the replica with a clean state and in the background. 
+> :warning: Be careful. CLean will wipe your existing canisters for a current project. Only do this if you actually want to wipe the state of the canisters.
 
 ```
 dfx start --clean --background
 ```
 
-# Managing Projects
+Just starts the replica without wiping the contents of the canisters
+```
+dfx start
+```
+
+## Managing Projects
 Create a new project:
 ```
 dfx new <canister_name>
 ```
 > Replace <canister_name> with the name of your canister / project.
+
+
+Create a new project manually without usinh dfx new. This creates a new directory called my-project. It also creates a blank actor and configures the dfx.json to use Motoko and main.mo. Make sure to update the version of your dfx. You can run `dfx --version` to find your version. 
+```
+mkdir my-project
+cd my-project
+echo ".dfx" > .gitignore
+echo "actor {}" > main.mo
+echo '{
+    "dfx": "0.8.4",
+    "canisters": {
+        "my-project": {
+            "type": "motoko",
+            "main": "main.mo"
+        }
+    }
+}' > dfx.json
+```
 
 
 ## Wallet, Ledger, Cycles, Identity Management
@@ -101,7 +125,8 @@ dfx deploy <canister_name>. Repalce <canister_name> with the specific canister
 > Example: `dfx deploy hello_world` dpeloys the hello_world canister 
 
 
-Wipes the data and dedeploys the canister:
+Wipes the data and redeploys the canister.
+> :warning: Be careful. This will wipe your canister data. 
 ```
 dfx deploy <canister_name> --mode=reinstall
 ```
