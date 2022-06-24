@@ -12,6 +12,11 @@ Just starts the replica without wiping the contents of the canisters
 ```
 dfx start
 ```
+
+Stops the replica 
+```
+dfx stop
+```
 ---
 ## Managing Projects
 Create a new project:
@@ -21,7 +26,7 @@ dfx new <canister_name>
 > Replace <canister_name> with the name of your canister / project.
 
 ---
-Create a new project manually without usinh dfx new. This creates a new directory called my-project. It also creates a blank actor and configures the dfx.json to use Motoko and main.mo. Make sure to update the version of your dfx. You can run `dfx --version` to find your version. 
+Create a new project manually without using dfx new. This creates a new directory called my-project. It also creates a blank actor and configures the dfx.json to use Motoko and main.mo. Make sure to update the version of your dfx. You can run `dfx --version` to find your version. 
 ```
 mkdir my-project
 cd my-project
@@ -113,16 +118,28 @@ dfx canister id <canister_name>
 > Replace <canister_name> with the name of your canister / project.
 ---
 
-Deploys / re-deploys the canisters in the dfx.json:
+Deploys / re-deploys the canisters in the dfx.json (localy):
 ```
 dfx deploy
 ``` 
 ---
+
+Deploys / re-deploys the canisters in the dfx.json to main net (main IC network)
+```
+dfx deploy --network=ic
+``` 
+---
+Deploys / re-deploys the canisters in the dfx.json. No wallet ensures that the owner of the canister is the caller principal id and not the wallet canister:
+```
+dfx deploy --no-wallet
+``` 
+---
+
 Deploys a specific canister:
 ```
-dfx deploy <canister_name>. Repalce <canister_name> with the specific canister
+dfx deploy <canister_name>. Replace <canister_name> with the specific canister
 ``` 
-> Example: `dfx deploy hello_world` dpeloys the hello_world canister 
+> Example: `dfx deploy hello_world` deploys the hello_world canister 
 ---
 Wipes the data and redeploys the canister.
 > :warning: Be careful. This will wipe your canister data. 
@@ -142,7 +159,7 @@ Calls the balanceOf method with an ID of the current principal. This essentially
 dfx canister call <canister_name> balanceOf "principal \"$(dfx identity get-principal)\""
 ``` 
 ---
-Calls canisters with more complex paramters:
+Calls canisters with more complex parameters:
 ```
 dfx canister call <canister_name> "(
     principal \"$(dfx identity get-principal)\",
