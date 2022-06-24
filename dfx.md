@@ -174,3 +174,4 @@ dfx canister call <canister_name> "(
 > Note:  <canister_name> replace this including<> with your canister name.
 ---
 
+You can find the [dfx release notes](https://internetcomputer.org/docs/current/developer-docs/updates/release-notes/) here.
