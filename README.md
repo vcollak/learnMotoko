@@ -7,5 +7,6 @@ This repository contains notes that cover everything and anything related to the
 - [Resources](resources.md)
 - [Candid](candid.md)
 - [DIP 721 (NFT standard) tutorials and resources](dip721.md)
+- [Mutability](mutability.md)
 
 
