@@ -1,9 +1,8 @@
 
 # Mutability
 
-`
 You can find [more on mutability here](https://internetcomputer.org/docs/current/developer-docs/build/languages/motoko/mutable-state) from IC documentation. 
-`
+
 
 Below shows how various variable declarations affect mutability of variables:
 ```javascript
