@@ -14,5 +14,5 @@ This repository contains notes that cover everything and anything related to the
 ## Examples 
 
 - [Pub-sub model example from dfinity](examples/pub-sub-dfinity/README.md)
-- [Modules example](examples/modules/Main.mo)
+- [Modules example](examples/modules/src/Main.mo)
 
