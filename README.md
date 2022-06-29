@@ -8,5 +8,11 @@ This repository contains notes that cover everything and anything related to the
 - [Candid](candid.md)
 - [DIP 721 (NFT standard) tutorials and resources](dip721.md)
 - [Mutability](mutability.md)
+- [Modules](modules.md)
 
+
+## Examples 
+
+- [Pub-sub model example from dfinity](examples/pub-sub-dfinity/README.md)
+- [Modules example](examples/modules/Main.mo)
 

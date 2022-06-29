@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Adds new files to git, commits and pushes to remote
+
 helpFunction()
 {
    echo ""

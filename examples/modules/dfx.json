@@ -1,0 +1,8 @@
+{
+  "canisters": {
+    "modules": {
+      "main": "src/modules/Main.mo"
+    }  
+  },
+  "dfx": "0.10.1"
+}
