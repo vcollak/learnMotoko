@@ -2,10 +2,10 @@ import Principal "mo:base/Principal";
 import Debug "mo:base/Debug";
 import Bool "mo:base/Bool";
 
-actor {
+actor Self {
 
     //checks if the user is an anonynmous web user
-    public shared query ({caller}) func isAnonymous(): async Bool{
+    public  shared query ({caller}) func isAnonymous(): async Bool{
 
         //this is always the identity of an anonymous web user
         let notAuthUser : Text = "2vxsx-fae";
@@ -17,6 +17,13 @@ actor {
             return false;
         }
     };
+
+    //return the canister ID
+    public query func getCanisterID() : async Principal{
+        return Principal.fromActor(Self)
+    }
+       
+    
 
 
 }
