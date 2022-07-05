@@ -1,0 +1,8 @@
+{
+  "canisters": {
+    "authorization": {
+      "main": "src/authorization/Main.mo"
+    }  
+  },
+  "dfx": "0.10.1"
+}

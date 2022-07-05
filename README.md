@@ -17,6 +17,7 @@ This repository contains notes that cover everything and anything related to the
 - [Pub-sub model example from dfinity](examples/pub-sub-dfinity/README.md)
 - [Modules example](examples/modules/src/modules/Main.mo)
 - [Autnentication examples](examples/authentication/src/auth/Main.mo)
+- [Authorization example](examples/authorization/src/authorization/Main.mo)
 - [Arrays](examples/arrays/)
 - [Types](examples/types/types.mo)
 
