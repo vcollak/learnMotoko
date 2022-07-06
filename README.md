@@ -10,14 +10,14 @@ This repository contains notes that cover everything and anything related to the
 - [Mutability](mutability.md)
 - [Modules](modules.md)
 - [Authentication](authentication.md)
-- [Authorizaton](authorization.md)
+- [Authorization](authorization.md)
 
 
 ## Examples 
 
 - [Pub-sub model example from dfinity](examples/pub-sub-dfinity/README.md)
 - [Modules example](examples/modules/src/modules/Main.mo)
-- [Autnentication examples](examples/authentication/src/auth/Main.mo)
+- [Authentication examples](examples/authentication/src/auth/Main.mo)
 - [Authorization example](examples/authorization/src/authorization/Main.mo)
 - [Arrays](examples/arrays/)
 - [Types](examples/types/types.mo)

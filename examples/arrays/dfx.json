@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "complex": {
+      "main": "src/arrays/complex.mo"
+    },
+    "simple": {
+      "main": "src/arrays/simple.mo"
+    },
+    "simple_one": {
+      "main": "src/arrays/simple_one.mo"
+    },
+    "mutable": {
+      "main": "src/arrays/mutable.mo"
+    }        
+  },
+  "dfx": "0.10.1"
+}
