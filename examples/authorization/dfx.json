@@ -1,8 +1,11 @@
 {
   "canisters": {
-    "authorization": {
-      "main": "src/authorization/Main.mo"
-    }  
+    "single_admin": {
+      "main": "src/auth/single_admin.mo"
+    },
+    "multi_admin": {
+      "main": "src/auth/multi_admin.mo"
+    }    
   },
   "dfx": "0.10.1"
 }

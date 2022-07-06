@@ -10,6 +10,7 @@ This repository contains notes that cover everything and anything related to the
 - [Mutability](mutability.md)
 - [Modules](modules.md)
 - [Authentication](authentication.md)
+- [Authorizaton](authorization.md)
 
 
 ## Examples 

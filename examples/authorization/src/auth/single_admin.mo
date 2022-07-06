@@ -25,4 +25,18 @@ shared ({ caller = creator }) actor class AuthCanister () = {
 
     };
 
+    //set the single new owner
+    //call this method with:
+    //  dfx canister call access-control-basic setOwner "principal \"<PRINCIPAL_ID>\""
+    //      WHERE: <PRINCIPAL_ID> is the principal id of the new owner
+    //      EXAMPLE: dfx canister call authorization setOwner "principal \"3qoyk-yveul-vgrfr-2jfhw-hyzia-pgkii-2unx5-ak7lf-aeq4p-qadha-wqe\""
+    public shared ({caller}) func setOwner (newOwner : Principal) : async (){
+        
+        //make sure the owner is the old owner
+        assert(caller == owner);
+
+        //set the new owner
+        owner := newOwner;
+    }
+
 };
