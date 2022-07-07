@@ -1,0 +1,8 @@
+{
+  "canisters": {
+    "errors": {
+      "main": "src/errors/Main.mo"
+    }  
+  },
+  "dfx": "0.10.1"
+}

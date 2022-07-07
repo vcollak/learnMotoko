@@ -21,6 +21,7 @@ This repository contains notes that cover everything and anything related to the
 - [Authorization example](examples/authorization/src/authorization/Main.mo)
 - [Arrays](examples/arrays/)
 - [Types](examples/types/types.mo)
+- [Errors](examples/errors/src/errors/Main.mo)
 
 ## Userful resources
 - [dfinity Motoko development guide](https://internetcomputer.org/docs/current/developer-docs/build/languages/motoko/)

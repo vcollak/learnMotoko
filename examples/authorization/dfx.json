@@ -5,7 +5,12 @@
     },
     "multi_admin": {
       "main": "src/auth/multi_admin.mo"
-    }    
+    },
+    "multi_admin_better_errors": {
+      "main": "src/auth/multi_admin_better_errors.mo"
+    }        
   },
   "dfx": "0.10.1"
 }
+
+
