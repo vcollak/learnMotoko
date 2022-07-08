@@ -1,7 +1,7 @@
 //Consumer canister will call the service canister 
 //getServiceCanisterName does not require any parameters. Instead, 
 //we're importing the canister by name (which means it needs to ne defined in canister_ids.json)
-//Example: dfx canister call consumer_canister_a getServiceCanisterName '("rrkah-fqaaa-aaaaa-aaaaq-cai")'
+//Example: dfx canister call consumer_canister_b getServiceCanisterName
 
 //import the canister we'll be calling
 import svcCanister "canister:service_canister";
