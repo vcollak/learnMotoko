@@ -1,0 +1,14 @@
+{
+  "canisters": {
+    "consumer_canister_a": {
+      "main": "src/cross_canister_calls/consumer_canister_a.mo"
+    },
+    "consumer_canister_b": {
+      "main": "src/cross_canister_calls/consumer_canister_b.mo"
+    },
+    "service_canister": {
+      "main": "src/cross_canister_calls/service_canister.mo"
+    }    
+  },
+  "dfx": "0.10.1"
+}

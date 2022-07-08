@@ -22,6 +22,7 @@ This repository contains notes that cover everything and anything related to the
 - [Arrays](examples/arrays/)
 - [Types](examples/types/types.mo)
 - [Errors](examples/errors/src/errors/Main.mo)
+- [Inter Canister Calls](examples/inter_canister_calls/src/cross_canister_calls/)
 
 ## Userful resources
 - [dfinity Motoko development guide](https://internetcomputer.org/docs/current/developer-docs/build/languages/motoko/)
