@@ -1,0 +1,11 @@
+{
+  "canisters": {
+    "cycles_server": {
+      "main": "src/cycles/cycles_server.mo"
+    },
+    "cycles_client": {
+      "main": "src/cycles/cycles_client.mo"
+    }    
+  },
+  "dfx": "0.10.1"
+}
