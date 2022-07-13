@@ -1,4 +1,4 @@
-# Resources
+# Candid
 
 Candid is the language that defines how to interact with the canisters. Clients and canisters to to each other using the candid language.
 

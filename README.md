@@ -4,7 +4,6 @@ This repository contains notes that cover everything and anything related to the
 
 ## Content
 - [DFX commands](dfx.md)
-- [Resources](resources.md)
 - [Candid](candid.md)
 - [DIP 721 (NFT standard) tutorials and resources](dip721.md)
 - [Mutability](mutability.md)
@@ -20,9 +19,16 @@ This repository contains notes that cover everything and anything related to the
 ## Examples 
 
 - [Pub-sub model example from dfinity](examples/pub-sub-dfinity/README.md)
-- [Modules example](examples/modules/src/modules/Main.mo)
-- [Authentication examples](examples/authentication/src/auth/Main.mo)
-- [Authorization example](examples/authorization/src/authorization/Main.mo)
+- [Modules](examples/modules/src/modules/Main.mo)
+- [Authentication](examples/authentication/src/auth/Main.mo)
+
+
+- Authorization
+    - [Multi Admin](examples/authorization/src/auth/multi_admin.mo)
+    - [Multi Admin with better Errors](examples/authorization/src/auth/multi_admin_better_errors.mo)
+    - [Single Admin](examples/authorization/src/auth/single_admin.mo)
+
+
 - [Arrays](examples/arrays/)
 - [Types](examples/types/types.mo)
 - [Errors](examples/errors/src/errors/Main.mo)
