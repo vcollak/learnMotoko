@@ -13,6 +13,10 @@ This repository contains notes that cover everything and anything related to the
 - [Authorization](authorization.md)
 
 
+## More obscure things
+- [Running standalone Motoko programs without IC](motoko-wasm.md)
+
+
 ## Examples 
 
 - [Pub-sub model example from dfinity](examples/pub-sub-dfinity/README.md)

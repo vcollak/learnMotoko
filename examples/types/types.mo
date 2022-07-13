@@ -1,4 +1,3 @@
-import DEbug "mo:base/Debug";
 import Debug "mo:base/Debug";
 
 
@@ -121,9 +120,9 @@ Debug.print(debug_show(myDistanceMi));
 //url type. Why not just pass text? This requires us to be explicit 
 //about using the url type
 type Url = { #url: Text };
-let myUrl : Url = #url "http://www.yahoo.com/"
+let myUrl : Url = #url "http://www.yahoo.com/";
   
 //this provides an easier way to catch the fact that
 //John Galt is probably not a URL.
-let myUrlA : Url = #url "John Galt"
+let myUrlA : Url = #url "John Galt";
 
