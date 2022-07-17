@@ -1,0 +1,8 @@
+{
+  "canisters": {
+    "vessel_package_manager": {
+      "main": "src/vessel_package_manager/Main.mo"
+    }  
+  },
+  "dfx": "0.10.1"
+}

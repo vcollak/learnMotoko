@@ -34,6 +34,7 @@ This repository contains notes that cover everything and anything related to the
 - [Errors](examples/errors/src/errors/Main.mo)
 - [Inter Canister Calls](examples/inter_canister_calls/src/cross_canister_calls/)
 - [Cycles](examples/cycles/src/cycles/)
+- [Vessel Package Manager](examples/vessel_package_manager/README.md)
 
 ## Userful resources
 - [dfinity Motoko development guide](https://internetcomputer.org/docs/current/developer-docs/build/languages/motoko/)
