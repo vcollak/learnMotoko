@@ -17,6 +17,8 @@ The resulting command would enable you to run:
 moc -r Main.mo
 ```
 
+You can also compile a motoko program into a Wasm binary, which can also be compiled into a native executable. You can read about it [here](examples/moc/readme.md)
+
 `Few things to note:`
 
  The Command `dfx cache show` will show the path fo the current dfinity sdk directory. This directory contains the dfx command itself with all the necessary things to run a local replica. The command `$(dfx cache show)/moc` seems complicated, but all it does is prepend the dfinity cache directory to the `moc` command. Similarly, when we include the `$(dfx cache show)/base` in the moc command, all we're doing is providing the directory called `base` within the dfinity cache directory. This is where the entire base library is located.
