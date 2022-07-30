@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# Creates a new empty canister 
+# Creates a new empty canister app. Instead of using dfx new which has 
+# some boiler plate, this mainly creates the dfx.json and an empty actor.
+
 
 helpFunction()
 {

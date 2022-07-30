@@ -1,19 +1,19 @@
 # Learn Motoko 
 
-This repository contains notes that cover everything and anything related to the Internet Computer blockchain including Motoko. It's been working on this as I've been learning.
+This repository learning resources for Internet Computer's Motoko programming language. 
 
 ## Content
-- [DFX commands](dfx.md)
-- [Candid](candid.md)
-- [DIP 721 (NFT standard) tutorials and resources](dip721.md)
-- [Mutability](mutability.md)
-- [Modules](modules.md)
-- [Authentication](authentication.md)
-- [Authorization](authorization.md)
+- [DFX commands](docs/dfx.md)
+- [Candid](docs/candid.md)
+- [DIP 721 (NFT standard) tutorials and resources](docs/dip721.md)
+- [Mutability](docs/mutability.md)
+- [Modules](docs/modules.md)
+- [Authentication](docs/authentication.md)
+- [Authorization](docs/authorization.md)
 
 
 ## More obscure things
-- [Running standalone Motoko programs without IC](motoko-wasm.md)
+- [Running standalone Motoko programs without an IC replica](docs/motoko-wasm.md)
 
 
 ## Examples 
@@ -21,7 +21,6 @@ This repository contains notes that cover everything and anything related to the
 - [Pub-sub model example from dfinity](examples/pub-sub-dfinity/README.md)
 - [Modules](examples/modules/src/modules/Main.mo)
 - [Authentication](examples/authentication/src/auth/Main.mo)
-
 
 - Authorization
     - [Multi Admin](examples/authorization/src/auth/multi_admin.mo)
@@ -36,8 +35,8 @@ This repository contains notes that cover everything and anything related to the
 - [Cycles](examples/cycles/src/cycles/)
 - [Vessel Package Manager](examples/vessel_package_manager/README.md)
 
-## Userful resources
+## Useful resources
 - [dfinity Motoko development guide](https://internetcomputer.org/docs/current/developer-docs/build/languages/motoko/)
 - [Kyle Peackock's blog](https://kyle-peacock.com/blog/)
 - [Infinity Swap blog](https://www.blog.infinityswap.one/)
-- [Resources](resources.md)
+- [Resources](docs/resources.md)

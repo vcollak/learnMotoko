@@ -1,6 +1,6 @@
 # MOC - the motoko compiler
 
-It's possible to execute motoko programs without deploying to replica. To do so, simply run the moc program with handful parameters. Below executes the Main.mo motoko program.
+It's possible to execute Motoko programs without deploying to a replica. To do so, simply run the moc program with handful parameters. Below executes the Main.mo motoko program.
 
 ```bash
 $(dfx cache show)/moc -r Main.mo --package base $(dfx cache show)/base
@@ -17,7 +17,7 @@ The resulting command would enable you to run:
 moc -r Main.mo
 ```
 
-You can also compile a motoko program into a Wasm binary, which can also be compiled into a native executable. You can read about it [here](examples/moc/readme.md)
+You can also compile a motoko program into a Wasm binary, which can also be compiled into a native executable. You can read about it [here](../examples/moc/readme.md).
 
 `Few things to note:`
 
