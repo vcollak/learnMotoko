@@ -40,3 +40,4 @@ This repository learning resources for Internet Computer's Motoko programming la
 - [Kyle Peackock's blog](https://kyle-peacock.com/blog/)
 - [Infinity Swap blog](https://www.blog.infinityswap.one/)
 - [Resources](docs/resources.md)
+- [Awesome Dfinity - A curated list of awesome projects and resources](https://github.com/dfinity/awesome-dfinity)
