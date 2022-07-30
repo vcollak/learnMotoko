@@ -34,7 +34,7 @@ Below shows how various variable declarations affect mutability of variables:
 ```
 
 ### Immutable Arrays
-This code shows how to [copy an array by using Array.tabulate](examples/arrays/array.mo):
+This code shows how to [copy an array by using Array.tabulate](../examples/arrays/src/arrays/simple.mo):
 ```javascript
 //create immutable array 1
   let array1 : [Nat] = [1, 2, 3, 4, 6, 7, 8] ;
@@ -47,7 +47,7 @@ This code shows how to [copy an array by using Array.tabulate](examples/arrays/a
 
 ```
 
-This code [copies one array to another using Array.tabulate](examples/arrays/array.mo), but changes the entries in the process. Both cases show a creation of immutable arrays:
+This code [copies one array to another using Array.tabulate](../examples/arrays/src/arrays/simple_one.mo), but changes the entries in the process. Both cases show a creation of immutable arrays:
 ```javascript
 //create array 1
   let array1 : [Nat] = [1, 2, 3, 4, 6, 7, 8] ;
@@ -67,7 +67,7 @@ This code [copies one array to another using Array.tabulate](examples/arrays/arr
 ```
 
 ### Mutable Arrays
-[Create mutable array](examples/arrays/mutableArray1.mo) and change it:
+[Create mutable array](../examples/arrays/src/arrays/mutable.mo) and change it:
 ```javascript
  //mutable Nat
   var size : Nat = 42 ;
