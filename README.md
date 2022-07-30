@@ -1,5 +1,10 @@
 # Learn Motoko 
 
+<p align="center">
+  <img width="200" height="162" src="https://internetcomputer.org/assets/images/motokoPlayground-fe1372394050f1a5753a3bd39c1d075a.png">
+</p>
+
+
 This repository learning resources for Internet Computer's Motoko programming language. 
 
 ## Content
